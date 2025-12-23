@@ -1,0 +1,227 @@
+/* ICJ External Portal Styles - Matching icj-cij.org */
+
+/* ICJ Blue - Primary color from official website */
+.text-icj-blue {
+  color: #005A9C;
+}
+.bg-icj-blue {
+  background-color: #005A9C;
+}
+.border-icj-blue {
+  border-color: #005A9C;
+}
+.hover\:text-icj-blue:hover {
+  color: #005A9C;
+}
+.hover\:bg-icj-blue:hover {
+  background-color: #005A9C;
+}
+
+/* Typography matching ICJ website */
+.font-heading {
+  font-family: 'Times New Roman', 'Georgia', serif;
+}
+
+.font-body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.4;
+}
+
+/* Case title style - matching ICJ website */
+.case-title {
+  font-family: 'Times New Roman', 'Georgia', serif;
+  font-size: 1.375rem;
+  font-weight: 400;
+  line-height: 1.15;
+  color: #1A1A1A;
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
+}
+
+@media (max-width: 768px) {
+  .case-title {
+    font-size: 1.5rem;
+  }
+}
+
+/* Section header - institutional style */
+.section-header {
+  font-family: 'Times New Roman', 'Georgia', serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: #2D2D2D;
+  border-bottom: 1px solid #D1D5DB;
+  padding-bottom: 0.15rem;
+  margin-bottom: 0.35rem;
+  line-height: 1.1;
+}
+
+/* Document link style - institutional */
+.document-link {
+  color: #374151;
+  text-decoration: none;
+  transition: color 0.2s;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.3;
+}
+.document-link:hover {
+  color: #1F2937;
+  text-decoration: underline;
+}
+
+/* Language links - institutional style */
+.language-links {
+  font-size: 0.75rem;
+  line-height: 1.3;
+}
+.language-links a {
+  color: #4B5563;
+  margin-right: 0.5rem;
+}
+.language-links a:hover {
+  text-decoration: underline;
+  color: #1F2937;
+}
+
+/* Sidebar navigation - compact institutional */
+.sidebar-nav {
+  background-color: #F9FAFB;
+  border: 1px solid #E5E7EB;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+}
+.sidebar-nav li a {
+  display: block;
+  padding: 0.3rem 0.5rem;
+  color: #4B5563;
+  font-size: 0.8rem;
+  border-radius: 0.25rem;
+  transition: background-color 0.2s;
+  text-decoration: none;
+  line-height: 1.3;
+}
+.sidebar-nav li a:hover {
+  background-color: #E5E7EB;
+}
+.sidebar-nav li a.active {
+  background-color: #374151;
+  color: white;
+}
+.sidebar-nav li a::before {
+  content: '• ';
+  margin-right: 0.2rem;
+}
+
+/* Date display - compact */
+.document-date {
+  font-size: 0.8rem;
+  color: #6B7280;
+  margin-bottom: 0.25rem;
+  line-height: 1.2;
+}
+
+/* NEW badge - matching ICJ website */
+.badge-new {
+  display: inline-block;
+  padding: 0.125rem 0.5rem;
+  background-color: #005A9C;
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 500;
+  border-radius: 0.25rem;
+  margin-top: 0.5rem;
+}
+
+/* Document card - institutional style */
+.document-card {
+  border-bottom: 1px solid #E5E7EB;
+  padding: 0.3rem 0;
+  line-height: 1.3;
+}
+.document-card:last-child {
+  border-bottom: none;
+}
+
+/* Info box - compact institutional style */
+.info-box {
+  background-color: #F9FAFB;
+  border: 1px solid #E5E7EB;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  margin-top: 0.75rem;
+}
+.info-box-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: #6B7280;
+  margin-bottom: 0.25rem;
+  line-height: 1.2;
+}
+.info-box-value {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #1F2937;
+  line-height: 1.3;
+}
+
+/* Case card - for dashboard */
+.case-card {
+  border: 1px solid #E0E0E0;
+  border-radius: 0.25rem;
+  padding: 1.5rem;
+  background-color: white;
+  transition: box-shadow 0.2s, border-color 0.2s;
+}
+.case-card:hover {
+  border-color: #005A9C;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+/* Divider - matching ICJ website */
+.icj-divider {
+  border-top: 1px solid #9CA3AF;
+  margin: 0.5rem 0;
+}
+
+/* Latest updates container */
+.latest-developments {
+  background-color: #F9FAFB;
+  border: 1px solid #E5E7EB;
+  border-radius: 0.25rem;
+  padding: 0.25rem;
+}
+
+/* Button styles matching ICJ website */
+.btn-icj-primary {
+  background-color: #005A9C;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+.btn-icj-primary:hover {
+  background-color: #004A7C;
+}
+
+.btn-icj-secondary {
+  background-color: white;
+  color: #005A9C;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  border: 1px solid #005A9C;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+.btn-icj-secondary:hover {
+  background-color: #F5F5F5;
+}

@@ -37,7 +37,7 @@ export function CaseSidebar({ caseData, activeSection = 'overview' }: CaseSideba
           ) : (
             <li key={section.id}>
               <Link
-                href={section.href}
+                href={section.href || '#'}
                 className={`
                   ${activeSection === section.id ? 'active' : ''}
                   ${section.highlight ? 'font-semibold' : ''}

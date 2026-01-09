@@ -75,7 +75,7 @@ export function deriveChecklistItemStatus(item: ChecklistItem): ChecklistItemSta
 
   // No language requirements - just need any evidence
   if (!requiredLanguages || requiredLanguages.length === 0) {
-    return "completed";
+    return "complete";
   }
 
   // Check if all required languages are present in evidence
@@ -88,7 +88,7 @@ export function deriveChecklistItemStatus(item: ChecklistItem): ChecklistItemSta
   );
 
   if (allLanguagesPresent) {
-    return "completed";
+    return "complete";
   }
 
   // Has some evidence but missing required languages

@@ -469,7 +469,7 @@ export default function CaseDashboardPage() {
                 <div className="space-y-2.5">
                   {caseData.recentActivity.slice(0, 10).map((item) => (
                     <div key={item.id} className="flex gap-2.5">
-                      <div className="mt-0.5">{getActivityIcon(item.icon)}</div>
+                      <div className="mt-0.5">{getActivityIcon(item.icon || "activity")}</div>
                       <div className="flex-1">
                         <div className="text-xs font-medium text-slate-900">{item.title}</div>
                         {item.subtitle && (

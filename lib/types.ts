@@ -33,8 +33,8 @@ export interface Document {
 }
 
 export type ChecklistPhaseId = "initiation" | "procedural" | "written" | "oral" | "judgment" | "closure";
-export type ChecklistItemStatus = "complete" | "partial" | "pending";
-export type LanguageStatus = "complete" | "awaiting" | "na";
+export type ChecklistItemStatus = "complete" | "partial" | "pending" | "blocked" | "not_started" | "in_progress";
+export type LanguageStatus = "complete" | "awaiting" | "pending" | "na";
 export type ChecklistActionKind = "generate_letter" | "create_distribution" | "file_document" | "record_event" | "open_modal";
 export type EvidenceType = "document" | "distribution" | "event";
 
@@ -129,11 +129,13 @@ export interface IncidentalProceeding {
 
 export interface ActivityItem {
   id: string;
-  type: "letter" | "distribution" | "document" | "action" | "ai";
-  title: string;
+  type: "letter" | "distribution" | "document" | "action" | "ai" | "status_change" | "language_status_change";
+  title?: string;
   subtitle?: string;
   timestamp: string;
-  icon: string;
+  icon?: string;
+  description?: string;
+  user?: string;
 }
 
 export type NotificationTrackType = "ART63_CONVENTIONS" | "INTERVENTION" | "INTERNAL_TASKS";

@@ -16,6 +16,7 @@ const translations = {
     cases: 'Cases',
     previous: 'Previous',
     next: 'Next',
+    backToDashboard: 'Back to Dashboard',
 
     // Dashboard
     myCases: 'MY CASES',
@@ -23,6 +24,10 @@ const translations = {
     recentNotifications: 'RECENT NOTIFICATIONS',
     viewCase: 'View Case',
     days: 'days',
+    daysRemaining: 'days remaining',
+    newDocs: 'new documents',
+    pendingActions: 'pending actions',
+    pendingAction: 'pending action',
 
     // Case detail
     latestDevelopments: 'LATEST UPDATES',
@@ -38,6 +43,8 @@ const translations = {
     submitFiling: 'Submit Filing',
     yourTeam: 'Your Team',
     deadlines: 'Deadlines',
+    quickActions: 'Quick Actions',
+    updateContact: 'Update Contact Info',
 
     // Document
     availableIn: 'Available in',
@@ -63,19 +70,25 @@ const translations = {
 
     // Submit
     dragDropFiles: 'Drag and drop files here',
+    dragDrop: 'Drag and drop files here',
     orClickBrowse: 'or click to browse',
+    orClick: 'or click to browse',
     selectFilingType: 'Select filing type',
+    selectType: 'Select type...',
     submit: 'Submit',
+    submitButton: 'Submit Filing',
     filingType: 'Filing Type',
 
     // Footer
     disclaimer: 'Disclaimer',
     accessibility: 'Accessibility',
+    privacy: 'Privacy',
     allRightsReserved: 'All rights reserved',
     copyright: 'International Court of Justice',
 
     // Common
     documents: 'Documents',
+    viewDocuments: 'View Documents',
     download: 'Download',
     caseNumber: 'Case No.',
     generalList: 'General List No.',
@@ -91,10 +104,15 @@ const translations = {
     email: 'Email',
     name: 'Name',
     close: 'Close',
+    viewAll: 'View All',
     attachments: 'Attachments',
     acknowledgeReceipt: 'Acknowledge Receipt',
     teamMembers: 'Team Members',
-    addMember: 'Add Member'
+    addMember: 'Add Member',
+    all: 'All',
+    filter: 'Filter',
+    letters: 'Letters',
+    officialCommunication: 'Official Communication'
   },
   fr: {
     // Header
@@ -111,6 +129,7 @@ const translations = {
     cases: 'Affaires',
     previous: 'Précédent',
     next: 'Suivant',
+    backToDashboard: 'Retour au tableau de bord',
 
     // Dashboard
     myCases: 'MES AFFAIRES',
@@ -118,6 +137,10 @@ const translations = {
     recentNotifications: 'NOTIFICATIONS RÉCENTES',
     viewCase: 'Voir l\'affaire',
     days: 'jours',
+    daysRemaining: 'jours restants',
+    newDocs: 'nouveaux documents',
+    pendingActions: 'actions en attente',
+    pendingAction: 'action en attente',
 
     // Case detail
     latestDevelopments: 'DERNIÈRES MISES À JOUR',
@@ -133,6 +156,8 @@ const translations = {
     submitFiling: 'Soumettre un document',
     yourTeam: 'Votre équipe',
     deadlines: 'Délais',
+    quickActions: 'Actions rapides',
+    updateContact: 'Mettre à jour les coordonnées',
 
     // Document
     availableIn: 'Disponible en',
@@ -158,19 +183,25 @@ const translations = {
 
     // Submit
     dragDropFiles: 'Glissez-déposez les fichiers ici',
+    dragDrop: 'Glissez-déposez les fichiers ici',
     orClickBrowse: 'ou cliquez pour parcourir',
+    orClick: 'ou cliquez pour parcourir',
     selectFilingType: 'Sélectionnez le type de document',
+    selectType: 'Sélectionnez le type...',
     submit: 'Soumettre',
+    submitButton: 'Soumettre le document',
     filingType: 'Type de document',
 
     // Footer
     disclaimer: 'Avertissement',
     accessibility: 'Accessibilité',
+    privacy: 'Confidentialité',
     allRightsReserved: 'Tous droits réservés',
     copyright: 'Cour internationale de Justice',
 
     // Common
     documents: 'Documents',
+    viewDocuments: 'Voir les documents',
     download: 'Télécharger',
     caseNumber: 'Affaire n°',
     generalList: 'Rôle général n°',
@@ -186,10 +217,15 @@ const translations = {
     email: 'Courriel',
     name: 'Nom',
     close: 'Fermer',
+    viewAll: 'Voir tout',
     attachments: 'Pièces jointes',
     acknowledgeReceipt: 'Accuser réception',
     teamMembers: 'Membres de l\'équipe',
-    addMember: 'Ajouter'
+    addMember: 'Ajouter',
+    all: 'Tous',
+    filter: 'Filtrer',
+    letters: 'Lettres',
+    officialCommunication: 'Communication officielle'
   }
 };
 

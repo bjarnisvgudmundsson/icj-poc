@@ -108,7 +108,7 @@ export default function CasesPage() {
 
   return (
     <AppShell>
-      <Page>
+      <Page title="Cases">
         <div className="min-h-screen bg-slate-50">
           <div className="max-w-[1400px] mx-auto px-8 py-8">
             {/* Page Header */}

@@ -32,7 +32,7 @@ export default function DistributionsPage() {
 
   return (
     <AppShell>
-      <Page>
+      <Page title="Distributions">
         <div className="min-h-screen bg-slate-50">
           <div className="max-w-[1600px] mx-auto px-8 py-8">
             {/* Page Header */}

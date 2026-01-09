@@ -3,7 +3,7 @@ export type CaseRole = 'Applicant' | 'Respondent' | 'Article 63 Intervener';
 export type CasePhase = 'Written Proceedings' | 'Oral Proceedings' | 'Deliberation' | 'Merits';
 export type NotificationType = 'order' | 'transmission' | 'circular' | 'letter';
 export type NotificationStatus = 'unread' | 'read' | 'acknowledged';
-export type DocumentType = 'Order' | 'Pleading' | 'Correspondence';
+export type DocumentType = 'Order' | 'Pleading' | 'Correspondence' | 'Verbatim' | 'Press';
 export type FilingType = 'Memorial' | 'Counter-Memorial' | 'Reply' | 'Rejoinder' | 'Letter/Request' | 'Evidence/Annex';
 export type Language = 'en' | 'fr';
 
